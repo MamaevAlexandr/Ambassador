@@ -1,0 +1,211 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    background-color:rgba(0, 0, 0, 1);
+}
+.main__content {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    max-height: 6.125rem;
+    background: linear-gradient(0deg, #B315E8 -65.31%, #000000 50%);
+}
+.nav__logo-title {
+    height: 100%;
+    max-height: 6rem;
+    width: 50%;
+}
+
+.header__nav {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    max-width: 34.75rem;
+}
+.header__nav-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item-txt {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.header__nav-item-txt:hover {
+    background: linear-gradient(113.79deg, #B315E8 16.71%, #8AE0E6 63.89%, #7FE3AF 110.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*============================================= Block #2 Scool ===============================*/
+
+.ambassadors__scool{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url(../img/amb__scool/people_bg.svg) right/100% no-repeat;
+}
+.ambassadors__scool-block-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+    width: 45%;
+}
+.ambassadors__scool-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ambassadors__scool-info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 29.0625rem;
+    margin: 0 20px 40px 0;
+}
+.ambassadors__scool-info-txt{
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 44px;
+    color: rgb(232, 237, 240);
+}
+.ambassadors__scool-clic {
+    margin: 0 180px 20px 0;
+}
+.ambassadors__scool-btm {
+    width: 218px;
+    height: 2.5rem;
+    background: rgba(21, 156, 232, 1);
+    border-radius: 0.3125rem;
+    font-family: 'Manrope';
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.6875rem;
+    color:rgb(232, 237, 240);
+}
+.ambassadors__scool-btm:hover {
+    background: rgba(179, 21, 232, 1);
+    color: white;
+    transition-duration: 1s;
+}
+
+/*============================================= Block #3 Programm ===============================*/
+.programm {
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid red;
+    background: url(../img/programm/bg__programm.svg) top/100% no-repeat;
+}
+.programm__left-right-info {
+    display: flex;
+    justify-content: space-between;
+    min-height: 25rem;
+    margin: 0 0 0 130px;
+}
+.programm__left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.programm__name {
+    font-family: 'Manrope';
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 87px;
+    color: rgb(232, 237, 240);
+}
+.programm__btm{
+    width: 220px;
+    max-width: 220px;
+    max-height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 10.9375rem 0 0 8.75rem;
+    text-align: center;
+}
+.programm__left {
+    display: flex;
+}
+.programm__img {
+    width: 100%;
+}
+.programm__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.programm__right-card {
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    border: 1px solid red;
+}
+.programm__right-card-private {
+    display: flex;
+    background: aqua;
+}
+.programm__right-card-firstName{
+    display: flex;
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 36px;
+    color:#FFFFFF;
+}
+.programm__right-card-txt {
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color:#FFFFFF;
+}
+.programm__info {
+    margin: 200px 0 0 0;
+}
+.programm__info-polosa {
+    border: 2px solid red;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.programm__info-numbers {
+    text-align: center;
+}
+.programm__info-numbers {
+    display: flex;
+    justify-content: space-around;
+}
+.programm__info-numbers-block {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 87px;
+    color: #FDFDFD;
+}
+.programm__info-numbers-txt {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FDFDFD;
+    margin: 0 0 0 0;
+}
