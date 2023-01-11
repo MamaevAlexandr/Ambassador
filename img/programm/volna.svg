@@ -1,0 +1,18 @@
+<svg width="1440" height="204" viewBox="0 0 1440 204" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:hard-light">
+<path d="M-32 164.783L141.5 78.783L344.5 157.783L468 88.283L634.5 139.283L716 115.783L858 157.783L947.5 96.283L1055.5 164.783H1147L1211 177.783C1211 177.783 1354.53 84.6065 1358.99 79.0425C1358.83 78.8717 1358.83 78.783 1359 78.783C1359.13 78.783 1359.13 78.8712 1358.99 79.0425C1363.07 83.329 1468.5 139.283 1468.5 139.283V329.283H-32V164.783Z" fill="url(#paint0_linear_271_2)"/>
+<path d="M-32 164.783L141.5 78.783L344.5 157.783L468 88.283L634.5 139.283L716 115.783L858 157.783L947.5 96.283L1055.5 164.783H1147L1211 177.783C1211 177.783 1354.53 84.6065 1358.99 79.0425C1358.83 78.8717 1358.83 78.783 1359 78.783C1359.13 78.783 1359.13 78.8712 1358.99 79.0425C1363.07 83.329 1468.5 139.283 1468.5 139.283V329.283H-32V164.783Z" stroke="#99FFFF" stroke-width="3"/>
+</g>
+<path d="M190 0V98" stroke="#99FFFF" stroke-width="3"/>
+<circle cx="190" cy="9" r="9" fill="#99FFFF"/>
+<path d="M613 0V132" stroke="#99FFFF" stroke-width="3"/>
+<circle cx="613" cy="9" r="9" fill="#99FFFF"/>
+<path d="M1017 0V140" stroke="#99FFFF" stroke-width="3"/>
+<circle cx="1017" cy="9" r="9" fill="#99FFFF"/>
+<defs>
+<linearGradient id="paint0_linear_271_2" x1="718.25" y1="-68.5" x2="718.25" y2="204" gradientUnits="userSpaceOnUse">
+<stop stop-color="#99FFFF"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
