@@ -110,7 +110,7 @@ body {
 .programm {
     width: 100%;
     min-height: 100vh;
-    background: url(../img/programm/bg__programm.svg) top/100% no-repeat;
+    background: url(../img/programm/bg_programm.svg) center/100% no-repeat;
 }
 .programm__left-right-info {
     display: flex;
@@ -130,33 +130,8 @@ body {
     font-size: 64px;
     line-height: 87px;
     color: rgb(232, 237, 240);
-    padding: 0 0 70% 0;
 }
-.programm__btm{
-    width: 220px;
-    height: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin: 39% 0 0 2%;
-    text-align: center;
-    position: absolute;
-    padding: 5px 0 0 0;
-}
-.programm__btm-ggdisk {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    color: rgba(21, 156, 232, 1);
-}
-.programm__btm-ggdisk span{
-    margin: 0 0 0 5px;
-}
+
 .programm__left {
     display: flex;
 }
@@ -174,17 +149,20 @@ body {
     grid-template-rows: 45% 45% 45%;
     grid-gap: 10px;
     width: 100%;
-    margin: 10.625rem 0 0 0;
 }
 .programm__right-card-private {
     display: flex;
+}
+.programm__right-private-photo {
+    width: 53px;
+    height: 53px;
 }
 .programm__right-card-firstName{
     display: flex;
     font-family: 'Manrope';
     font-weight: 800;
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 27px;
     color:#FFFFFF;
 }
 .programm__right-card-txt {
@@ -194,34 +172,96 @@ body {
     line-height: 18px;
     color:#FFFFFF;
 }
-.programm__info {
-    margin: 210px 0 0 0;
-}
-.programm__info-polosa {
-    border: 1px solid rgba(153, 255, 255, 1);
-    transform: matrix(1, 0, 0, 1, 0, 0);
-}
-.programm__info-numbers {
-    text-align: center;
-}
-.programm__info-numbers {
+.training__packages {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
-.programm__info-numbers-block {
+.training__packages-name {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 200;
-    font-size: 64px;
-    line-height: 87px;
-    color: #FDFDFD;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: rgba(255, 255, 255, 1);
 }
-.programm__info-numbers-txt {
+.training__packages-name-txt {
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.training__packages-priceBook {
+    margin: 0 auto;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color:rgba(255, 255, 255, 1);
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
+}
+.training__packages-priceBook-nobg {
+    margin: 0 auto;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color:rgba(255, 255, 255, 1);
+}
+.training__packages__btm-all {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.training__packages__btm{
+    display: flex;
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    padding: 5px 0 0 0;
+}
+.training__packages__btm {
+    display: flex;
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+.training__packages__btm-ggdisk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FDFDFD;
-    margin: 0 0 0 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(21, 156, 232, 1);
+}
+.training__packages__btm-ggdisk-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(21, 156, 232, 1);
+}
+.programm__btm-ggdisk-right span{
+    margin: 0 0 0 5px;
 }
