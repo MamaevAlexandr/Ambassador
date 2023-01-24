@@ -126,6 +126,7 @@ body {
 }
 .programm__name {
     font-family: 'Manrope';
+    font-style: normal;
     font-weight: 200;
     font-size: 64px;
     line-height: 87px;
@@ -284,6 +285,12 @@ body {
     margin: -31% 0 0 51%;
     opacity: .8;
 }
+.tetsimg {
+    width: 100%;
+    max-width: 23px;
+    height: 100%;
+    max-height: 330px;
+}
 
 /*=================Mentors==============*/
 .mentors { 
@@ -327,4 +334,116 @@ body {
     font-size: 11px;
     line-height: 15px;
     color:rgba(255, 255, 255, 1);
+}
+/*=====================TABLE=================*/
+.comparsion-table{
+    border-collapse: collapse;
+    position: relative;
+    width: 100%;
+    background: rgb(23, 49, 83);
+}
+.comparsion-table__head-cell {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: rgba(255, 255, 255, 1);
+}
+.comparsion-table__head-cell-name{
+    text-align: center;
+    background: url(../img/programm/basic__bg.svg) no-repeat 100%;
+    opacity: 0.7;
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.comparsion-table__head-cell-nameA {
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background: url(../img/programm/advanced_bg.svg) no-repeat 100%;
+    opacity: 0.7;
+}
+.comparsion-table__head-cell-nameP {
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background: url(../img/programm/premium_bg.svg) no-repeat 100%;
+    opacity: 0.7;
+}
+.comparsion-table__grey{
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
+}
+
+.comparsion-table__body-cell_name-nameProgramm{
+    padding: 10px 0;
+    margin: 0 auto;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color:rgba(255, 255, 255, 1);
+}
+.comparsion-table__body-cell-cell_checked{
+    background: url(../img/crest.svg) no-repeat 50%;
+}
+.comparsion-table__body-cell-galka {
+    background: url(../img/gal.svg) no-repeat 50%;
+}
+.comparsion-table__footer-btmLeft {
+    width: 220px;
+    height: 40px;
+    background: rgba(203, 84, 242, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color:rgba(255, 255, 255, 1);
+}
+.comparsion-table__footer-btmRight {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(21, 156, 232, 1);
+    padding: 10px 0 0 5px;
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+}
+.spanImg {
+    margin: -5px 0 0 0;
+}
+.comparsion-table__footer-bas {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: rgba(255, 255, 255, 1);
 }
