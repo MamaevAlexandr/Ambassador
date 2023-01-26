@@ -297,20 +297,30 @@ body {
     width: 100%;
     min-height: 100vh;
 }
+.metnors__card-all {
+    width: 100%;
+    max-width: 12.8125rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+
+}
+
 .mentors__name {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
 }
 .mentors__name-first {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 200;
     font-size: 64px;
     line-height: 87px;
     color: rgba(255, 255, 255, 1);
 }
 .mentors__card {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .mentors__card-photo {
     width: 100%;
@@ -321,25 +331,32 @@ body {
 .mentors__card-name {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 300;
     font-size: 24px;
     line-height: 33px;
     color: rgba(255, 255, 255, 1);
-    border-top: 1px solid rgba(255, 0, 255, 1); ;
+    border-bottom: 1px solid rgba(255, 0, 255, 1); ;
 }
 .mentors__card-txt {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 11px;
     line-height: 15px;
     color:rgba(255, 255, 255, 1);
+    margin: 15px 0;
+}
+
+.mentors__card-icon {
+    width: 100%;
+    max-width: 6.25rem;
+    display: flex;
+    justify-content: space-between;
 }
 /*=====================TABLE=================*/
 .comparsion-table{
     border-collapse: collapse;
     width: 100%;
     background: rgb(23, 49, 83);
+    margin: 400px 0 0 0;
 }
 .comparsion-table__head-cell {
     font-family: 'Manrope';
