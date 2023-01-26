@@ -379,7 +379,10 @@ body {
     background: url(../img/programm/premium_bg.svg) no-repeat 100%;
     opacity: 0.7;
 }
-.comparsion-table__grey{
+/* .comparsion-table__grey{
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
+} */
+.comparsion-table__grey td:nth-child(2n+1){
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
 }
 
@@ -396,9 +399,11 @@ body {
     background: url(../img/crest.svg) no-repeat 50%;
 }
 
-.comparsion-table__body-cell-galka {
-    background: url(../img/gal.svg) no-repeat 50%;
+.comparsion-table__body-cell-first__colon {
+    background: url(../img/programm/basic__bg.svg) no-repeat 100%;
+    text-align: center;
 }
+
 .double__btm {
     display: flex;
     justify-content: space-between;
@@ -444,4 +449,51 @@ body {
     font-size: 36px;
     line-height: 49px;
     color: rgba(255, 255, 255, 1);
+}
+.comparsion-table__footer-bas-sale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color:rgb(252, 249, 249)
+}
+.sale {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.sale_polosa {
+    border: 1px solid #FF00FF;
+    transform: rotate(-15deg);
+    position:absolute;
+    width: 60px;
+    margin: 50px 0 0 0;
+}
+.comparsion-table__footer-bas-saleTwo {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color:rgb(252, 249, 249);
+    padding: 0 0 0 30px;
+}
+.saleTwo {
+    display: flex;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0 0 0 15px;
+}
+.sale_polosaTwo {
+    border: 1px solid #FF00FF;
+    transform: rotate(-15deg);
+    position:absolute;
+    width: 60px;
+    margin: -15px 0 0 10px;
 }
