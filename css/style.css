@@ -338,14 +338,12 @@ body {
 /*=====================TABLE=================*/
 .comparsion-table{
     border-collapse: collapse;
-    position: relative;
     width: 100%;
     background: rgb(23, 49, 83);
 }
 .comparsion-table__head-cell {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 500;
     font-size: 40px;
     line-height: 55px;
     color: rgba(255, 255, 255, 1);
@@ -357,7 +355,6 @@ body {
     color:rgba(255, 255, 255, 1);
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
@@ -366,7 +363,6 @@ body {
     color:rgba(255, 255, 255, 1);
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
@@ -377,7 +373,6 @@ body {
     color:rgba(255, 255, 255, 1);
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
@@ -393,7 +388,6 @@ body {
     margin: 0 auto;
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     color:rgba(255, 255, 255, 1);
@@ -401,8 +395,13 @@ body {
 .comparsion-table__body-cell-cell_checked{
     background: url(../img/crest.svg) no-repeat 50%;
 }
+
 .comparsion-table__body-cell-galka {
     background: url(../img/gal.svg) no-repeat 50%;
+}
+.double__btm {
+    display: flex;
+    justify-content: space-between;
 }
 .comparsion-table__footer-btmLeft {
     width: 220px;
@@ -410,13 +409,12 @@ body {
     background: rgba(203, 84, 242, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0 0 0;
     cursor: pointer;
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 20px;
     line-height: 27px;
     color:rgba(255, 255, 255, 1);
@@ -424,7 +422,6 @@ body {
 .comparsion-table__footer-btmRight {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     color: rgba(21, 156, 232, 1);
@@ -434,7 +431,9 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+    display: inline-block;
     text-align: center;
+    cursor: pointer;
 }
 .spanImg {
     margin: -5px 0 0 0;
@@ -442,7 +441,6 @@ body {
 .comparsion-table__footer-bas {
     font-family: 'Manrope';
     font-style: normal;
-    font-weight: 600;
     font-size: 36px;
     line-height: 49px;
     color: rgba(255, 255, 255, 1);
