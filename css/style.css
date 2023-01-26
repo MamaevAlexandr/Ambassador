@@ -358,6 +358,23 @@ body {
     background: rgb(23, 49, 83);
     margin: 400px 0 0 0;
 }
+
+/* Каждой 2, 4 и 6 ячейке в строке задаю свой фон */
+.comparsion-table td:nth-child(2), .comparsion-table th:nth-child(2){
+    background: #32ABB4;
+}
+.comparsion-table td:nth-child(4), .comparsion-table th:nth-child(4){
+    background: #3096CF;
+}
+.comparsion-table td:nth-child(6) , .comparsion-table th:nth-child(6){
+    background: #6154F2;
+}
+
+/* задаю ширину пустой ячейки */
+.comparsion-table__empty-cell{
+    width: 36px;
+}
+
 .comparsion-table__head-cell {
     font-family: 'Manrope';
     font-style: normal;
@@ -368,7 +385,7 @@ body {
 .comparsion-table__head-cell-name{
     text-align: center;
     background: url(../img/programm/basic__bg.svg) no-repeat 100%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     color:rgba(255, 255, 255, 1);
     font-family: 'Manrope';
     font-style: normal;
@@ -384,7 +401,7 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     background: url(../img/programm/advanced_bg.svg) no-repeat 100%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 .comparsion-table__head-cell-nameP {
     color:rgba(255, 255, 255, 1);
@@ -394,12 +411,30 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     background: url(../img/programm/premium_bg.svg) no-repeat 100%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 /* .comparsion-table__grey{
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
 } */
-.comparsion-table__grey td:nth-child(2n+1){
+/* .comparsion-table__grey td:nth-child(2n+1){
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
+} */
+
+/* каждой нечетной строке в tbody задаю псевдоэлемент after,
+ растягиваю его на всю строку через позиционирование 
+ и задаю ему полупрозрачный белый фон  */
+
+.comparsion-table__body tr:nth-child(odd){
+    position: relative;
+}
+
+.comparsion-table__body tr:nth-child(odd)::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
 }
 
@@ -417,7 +452,7 @@ body {
 }
 
 .comparsion-table__body-cell-first__colon {
-    background: url(../img/programm/basic__bg.svg) no-repeat 100%;
+    /* background: url(../img/programm/basic__bg.svg) no-repeat 100%; */
     text-align: center;
 }
 
