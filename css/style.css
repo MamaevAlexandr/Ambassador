@@ -1,246 +1,253 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 body {
-    background-color:rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1);
 }
 .main__content {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    max-height: 6.125rem;
-    background: linear-gradient(0deg, #B315E8 -65.31%, #000000 50%);
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  max-height: 6.125rem;
+  background: linear-gradient(0deg, #b315e8 -65.31%, #000000 50%);
 }
 .nav__logo-title {
-    height: 100%;
-    max-height: 6rem;
-    width: 50%;
+  height: 100%;
+  max-height: 6rem;
+  width: 50%;
 }
 
 .header__nav {
-    width: 100%;
-    max-width: 50%;
-    display: flex;
-    align-items: center;
-    max-width: 34.75rem;
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  max-width: 34.75rem;
 }
 .header__nav-item {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__nav-item-txt {
-    font-family: 'Manrope';
-    font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.6875rem;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.6875rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
 }
 
 .header__nav-item-txt:hover {
-    background: linear-gradient(113.79deg, #B315E8 16.71%, #8AE0E6 63.89%, #7FE3AF 110.7%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    113.79deg,
+    #b315e8 16.71%,
+    #8ae0e6 63.89%,
+    #7fe3af 110.7%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 /*============================================= Block #2 Scool ===============================*/
 
-.ambassadors__scool{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    background: url(../img/amb__scool/people_bg.svg) right/100% no-repeat;
+.ambassadors__scool {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: url(../img/amb__scool/people_bg.svg) right/100% no-repeat;
 }
-.ambassadors__scool-block-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin: 120px 0;
-    width: 45%;
+.ambassadors__scool-block-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 0;
+  width: 45%;
 }
 .ambassadors__scool-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ambassadors__scool-info {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 29.0625rem;
-    margin: 0 20px 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 29.0625rem;
+  margin: 0 20px 40px 0;
 }
-.ambassadors__scool-info-txt{
-    font-family: 'Manrope';
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 44px;
-    color: rgb(232, 237, 240);
+.ambassadors__scool-info-txt {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 44px;
+  color: rgb(232, 237, 240);
 }
 .ambassadors__scool-clic {
-    margin: 0 180px 20px 0;
+  margin: 0 180px 20px 0;
 }
 .ambassadors__scool-btm {
-    width: 218px;
-    height: 2.5rem;
-    background: rgba(21, 156, 232, 1);
-    border-radius: 0.3125rem;
-    font-family: 'Manrope';
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.6875rem;
-    color:rgb(232, 237, 240);
+  width: 218px;
+  height: 2.5rem;
+  background: rgba(21, 156, 232, 1);
+  border-radius: 0.3125rem;
+  font-family: "Manrope";
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  color: rgb(232, 237, 240);
 }
 .ambassadors__scool-btm:hover {
-    background: rgba(179, 21, 232, 1);
-    color: white;
-    transition-duration: 1s;
+  background: rgba(179, 21, 232, 1);
+  color: white;
+  transition-duration: 1s;
 }
 
 /*============================================= Block #3 Programm ===============================*/
 .programm {
-    /* width: 100%; */
-    min-height: 100vh;
-    background: url(../img/programm/bg_programm.svg) repeat repeat;
+  /* width: 100%; */
+  min-height: 100vh;
+  background: url(../img/programm/bg_programm.svg) repeat repeat;
 }
 .programm__left-right-info {
-    display: flex;
-    justify-content: space-between;
-    min-height: 25rem;
-    margin: 3px 0 0 130px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 25rem;
+  margin: 3px 0 0 130px;
 }
 .programm__left {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .programm__name {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 64px;
-    line-height: 87px;
-    color: rgb(232, 237, 240);
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 64px;
+  line-height: 87px;
+  color: rgb(232, 237, 240);
 }
 .programm__imgPeopl {
-    width: 100%;
-    max-width: 21.1875rem;
+  width: 100%;
+  max-width: 21.1875rem;
 }
-
 
 .programm__left {
-    display: flex;
+  display: flex;
 }
 .programm__img {
-    width: 100%;
+  width: 100%;
 }
 .programm__right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .programm__right-card {
-    display: inline-grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 45% 45% 45%;
-    grid-gap: 10px;
-    width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 45% 45% 45%;
+  grid-gap: 10px;
+  width: 100%;
 }
 .programm__right-card-private {
-    display: flex;
+  display: flex;
 }
 .programm__right-private-photo {
-    width: 53px;
-    height: 53px;
+  width: 53px;
+  height: 53px;
 }
-.programm__right-card-firstName{
-    display: flex;
-    font-family: 'Manrope';
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 27px;
-    color:#FFFFFF;
+.programm__right-card-firstName {
+  display: flex;
+  font-family: "Manrope";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
 }
 .programm__right-card-txt {
-    font-family: 'Manrope';
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 18px;
-    color:#FFFFFF;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff;
 }
 /* table */
-.comparsion-table{
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 75rem;
-    background: rgb(23, 49, 83);
-    margin: 30px auto;
-
+.comparsion-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 75rem;
+  background: rgb(23, 49, 83);
+  margin: 30px auto;
 }
 
 /* Каждой 2, 4 и 6 ячейке в строке задаю свой фон */
-.comparsion-table td:nth-child(2), .comparsion-table th:nth-child(2){
-    background: #32ABB4;
+.comparsion-table td:nth-child(2),
+.comparsion-table th:nth-child(2) {
+  background: #32abb4;
 }
-.comparsion-table td:nth-child(4), .comparsion-table th:nth-child(4){
-    background: #3096CF;
+.comparsion-table td:nth-child(4),
+.comparsion-table th:nth-child(4) {
+  background: #3096cf;
 }
-.comparsion-table td:nth-child(6) , .comparsion-table th:nth-child(6){
-    background: #6154F2;
+.comparsion-table td:nth-child(6),
+.comparsion-table th:nth-child(6) {
+  background: #6154f2;
 }
 
 /* задаю ширину пустой ячейки */
-.comparsion-table__empty-cell{
-    width: 36px;
+.comparsion-table__empty-cell {
+  width: 36px;
 }
 
 .comparsion-table__head-cell {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 40px;
-    line-height: 35px;
-    color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 35px;
+  color: rgba(255, 255, 255, 1);
 }
-.comparsion-table__head-cell-name{
-    text-align: center;
-    background: url(../img/programm/basic__bg.svg) no-repeat 100%;
-    /* opacity: 0.7; */
-    color:rgba(255, 255, 255, 1);
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
-    text-transform: uppercase;
+.comparsion-table__head-cell-name {
+  text-align: center;
+  background: url(../img/programm/basic__bg.svg) no-repeat 100%;
+  /* opacity: 0.7; */
+  color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
 .comparsion-table__head-cell-nameA {
-    color:rgba(255, 255, 255, 1);
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
-    text-transform: uppercase;
-    background: url(../img/programm/advanced_bg.svg) no-repeat 100%;
-    /* opacity: 0.7; */
+  color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  background: url(../img/programm/advanced_bg.svg) no-repeat 100%;
+  /* opacity: 0.7; */
 }
 .comparsion-table__head-cell-nameP {
-    color:rgba(255, 255, 255, 1);
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
-    text-transform: uppercase;
-    background: url(../img/programm/premium_bg.svg) no-repeat 100%;
-    /* opacity: 0.7; */
+  color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  background: url(../img/programm/premium_bg.svg) no-repeat 100%;
+  /* opacity: 0.7; */
 }
 /* .comparsion-table__grey{
     background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
@@ -253,202 +260,202 @@ body {
  растягиваю его на всю строку через позиционирование 
  и задаю ему полупрозрачный белый фон  */
 
-.comparsion-table__body tr:nth-child(odd){
-    position: relative;
+.comparsion-table__body tr:nth-child(odd) {
+  position: relative;
 }
 
-.comparsion-table__body tr:nth-child(odd)::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background:linear-gradient(0deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
+.comparsion-table__body tr:nth-child(odd)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.25)
+  );
 }
 
-.comparsion-table__body-cell_name-nameProgramm{
-    padding: 10px 0 10px 50px;
-    margin: 0 auto;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 22px;
-    line-height: 20px;
-    color:rgba(255, 255, 255, 1);
+.comparsion-table__body-cell_name-nameProgramm {
+  padding: 10px 0 10px 50px;
+  margin: 0 auto;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 1);
 }
-.comparsion-table__body-cell-cell_checked{
-    background: url(../img/crest.svg) no-repeat 50%;
+.comparsion-table__body-cell-cell_checked {
+  background: url(../img/crest.svg) no-repeat 50%;
 }
 
 .comparsion-table__body-cell-first__colon {
-    /* background: url(../img/programm/basic__bg.svg) no-repeat 100%; */
-<<<<<<< HEAD
-    text-align: center;
+  /* background: url(../img/programm/basic__bg.svg) no-repeat 100%; */
+  text-align: center;
 }
 .comparsion-table__body-cell-crest {
-=======
->>>>>>> 05f7a52c7009f439706eae35f196f7a6588dbc7e
-    text-align: center;
+  text-align: center;
 }
 
 .double__btm {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .comparsion-table__footer-btmLeft {
-    width: 220px;
-    height: 40px;
-    background: rgba(203, 84, 242, 1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    padding: 5px 0 0 0;
-    cursor: pointer;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 27px;
-    color:rgba(255, 255, 255, 1);
+  width: 220px;
+  height: 40px;
+  background: rgba(203, 84, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 0 0 0;
+  cursor: pointer;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 1);
 }
 .comparsion-table__footer-btmRight {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
-    color: rgba(21, 156, 232, 1);
-    padding: 10px 0 0 5px;
-    width: 220px;
-    height: 40px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(21, 156, 232, 1);
+  padding: 10px 0 0 5px;
+  width: 220px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
 }
 .spanImg {
-    margin: -5px 0 0 0;
+  margin: -5px 0 0 0;
 }
 .comparsion-table__footer-bas {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 36px;
-    line-height: 49px;
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
-.comparsion-table__footer-bas-sale{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 36px;
-    line-height: 49px;
-    color:rgb(252, 249, 249)
+.comparsion-table__footer-bas-sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgb(252, 249, 249);
 }
 .sale {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 27px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
 }
 .sale_polosa {
-    border: 1px solid #FF00FF;
-    transform: rotate(-15deg);
-    position:absolute;
-    width: 60px;
-    margin: 50px 0 0 0;
+  border: 1px solid #ff00ff;
+  transform: rotate(-15deg);
+  position: absolute;
+  width: 60px;
+  margin: 50px 0 0 0;
 }
 .comparsion-table__footer-bas-saleTwo {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 36px;
-    line-height: 49px;
-    color:rgb(252, 249, 249);
-    text-align: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 36px;
+  line-height: 49px;
+  color: rgb(252, 249, 249);
+  text-align: center;
 }
 .saleTwo {
-    display: flex;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 27px;
-    margin: 0 0 0 50px;
+  display: flex;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0 0 0 50px;
 }
 .sale_polosaTwo {
-    border: 1px solid #FF00FF;
-    transform: rotate(-15deg);
-    position:absolute;
-    width: 3.75rem;
-    margin: -0.9375rem 0 0 2.6875rem;
+  border: 1px solid #ff00ff;
+  transform: rotate(-15deg);
+  position: absolute;
+  width: 3.75rem;
+  margin: -0.9375rem 0 0 2.6875rem;
 }
 .double__btm {
-    width: 500px;
-    margin: 0 0 0 3.125rem;
+  width: 500px;
+  margin: 0 0 0 3.125rem;
 }
 
 /*=================Mentors==============*/
-.mentors { 
-    width: 100%;
-    min-height: 100vh;
+.mentors {
+  width: 100%;
+  min-height: 100vh;
 }
 
 .mentors__name {
-    width: 100%;
-    max-width: 37.5rem;
+  width: 100%;
+  max-width: 37.5rem;
 }
 .mentors__name-first {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 64px;
-    line-height: 87px;
-    color: rgba(255, 255, 255, 1);
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 64px;
+  line-height: 87px;
+  color: rgba(255, 255, 255, 1);
 }
 .metnors__card-all {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
 }
 .mentors__card {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    max-width: 12.5rem;
-    border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  max-width: 12.5rem;
+  border: 1px solid red;
 }
 .mentors__card-photo {
-    width: 100%;
-    max-width: 10rem;
-    height: 100%;
-    max-height: 12.3125rem;
+  width: 100%;
+  max-width: 10rem;
+  height: 100%;
+  max-height: 12.3125rem;
 }
 .mentors__card-name {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 24px;
-    line-height: 33px;
-    color: rgba(255, 255, 255, 1);
-    border-bottom: 1px solid rgba(255, 0, 255, 1); ;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(255, 0, 255, 1);
 }
 .mentors__card-txt {
-    font-family: 'Manrope';
-    font-style: normal;
-    font-size: 11px;
-    line-height: 15px;
-    color:rgba(255, 255, 255, 1);
-    margin: 15px 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 1);
+  margin: 15px 0;
 }
 
 .mentors__card-icon {
-    width: 100%;
-    max-width: 6.25rem;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  max-width: 6.25rem;
+  display: flex;
+  justify-content: space-between;
 }
