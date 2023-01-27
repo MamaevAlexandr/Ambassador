@@ -282,9 +282,12 @@ body {
 
 .comparsion-table__body-cell-first__colon {
     /* background: url(../img/programm/basic__bg.svg) no-repeat 100%; */
+<<<<<<< HEAD
     text-align: center;
 }
 .comparsion-table__body-cell-crest {
+=======
+>>>>>>> 05f7a52c7009f439706eae35f196f7a6588dbc7e
     text-align: center;
 }
 
