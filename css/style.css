@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 1); 
 }
 .main__content {
   width: 100%;
@@ -15,10 +15,11 @@ body {
   display: flex;
   justify-content: space-around;
   height: 100%;
-  max-height: 6.125rem;
+  min-height: 100px;
   background: linear-gradient(0deg, #b315e8 -65.31%, #000000 50%);
 }
 .nav__logo-title {
+  margin: 25px 0 0 0;
   height: 100%;
   max-height: 6rem;
   width: 50%;
@@ -26,7 +27,6 @@ body {
 
 .header__nav {
   width: 100%;
-  max-width: 50%;
   display: flex;
   align-items: center;
   max-width: 34.75rem;
@@ -187,7 +187,7 @@ body {
 .comparsion-table {
   border-collapse: collapse;
   width: 100%;
-  max-width: 75rem;
+  max-width: 87rem;
   background: rgb(23, 49, 83);
   margin: 30px auto;
 }
@@ -215,8 +215,10 @@ body {
   font-family: "Manrope";
   font-style: normal;
   font-size: 40px;
-  line-height: 35px;
+  line-height: 50px;
   color: rgba(255, 255, 255, 1);
+  display: block;
+  padding: 0 22.5rem 0 0;
 }
 .comparsion-table__head-cell-name {
   text-align: center;
@@ -414,12 +416,14 @@ body {
   font-size: 64px;
   line-height: 87px;
   color: rgba(255, 255, 255, 1);
+  margin: 0 0 0 7.875rem;
 }
 .metnors__card-all {
   width: 100%;
+  max-width: 70%;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  margin: 3.125rem 0 0 6.9375rem;
 }
 .mentors__card {
   display: flex;
@@ -428,7 +432,6 @@ body {
   height: 100%;
   width: 100%;
   max-width: 12.5rem;
-  border: 1px solid red;
 }
 .mentors__card-photo {
   width: 100%;
@@ -458,4 +461,17 @@ body {
   max-width: 6.25rem;
   display: flex;
   justify-content: space-between;
+}
+/*===========================Portfolio=====================*/
+.portfolio{
+  width: 100%;
+  min-height: 100vh;
+}
+.portfolio__firstName {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-size: 64px;
+  line-height: 87px;
+  color:rgb(232, 237, 240);
+  margin: 0 0 0 5.9375rem;
 }
