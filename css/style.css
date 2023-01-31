@@ -218,7 +218,7 @@ body {
   line-height: 50px;
   color: rgba(255, 255, 255, 1);
   display: block;
-  padding: 0 22.5rem 0 0;
+  padding: 0 15rem 0 0;
 }
 .comparsion-table__head-cell-name {
   text-align: center;
@@ -229,6 +229,7 @@ body {
   font-style: normal;
   font-size: 22px;
   line-height: 30px;
+  width: 11.5rem;
   text-transform: uppercase;
 }
 .comparsion-table__head-cell-nameA {
@@ -239,6 +240,7 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   background: url(../img/programm/advanced_bg.svg) no-repeat 100%;
+  width: 11.5rem;
   /* opacity: 0.7; */
 }
 .comparsion-table__head-cell-nameP {
@@ -249,6 +251,7 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   background: url(../img/programm/premium_bg.svg) no-repeat 100%;
+  width: 11.5rem;
   /* opacity: 0.7; */
 }
 /* .comparsion-table__grey{
@@ -474,4 +477,53 @@ body {
   line-height: 87px;
   color:rgb(232, 237, 240);
   margin: 0 0 0 5.9375rem;
+}
+.portfolio__info {
+  width: 100%;
+  height: 100%;
+  min-height: 12.6875rem;
+  background: url(../img/portfolio/dostizheniya__bg.svg) no-repeat 100%;
+  margin: 3.375rem 0 0 0;
+}
+
+.portfolio__info-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__info-all {
+  width: 100%;
+  max-width: 18rem;
+  text-align: center;
+}
+.portfolio__info-top-number {
+  font-family: 'Manrope';
+  font-size: 48px;
+  line-height: 66px;
+  color: rgb(255, 255, 255);
+}
+.portfolio__info-top-txt {
+  font-family: 'Manrope';
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(255, 255, 255);
+}
+.portfolio__info-fact{
+  height: 100%;
+  min-height: 289px;
+  width: 100%;
+  max-width: 829px;
+  margin: 18px 0 0 0;
+  color: #ffffff;
+  border: 1px solid red;
+}
+.portfolio__slider  {
+  background: aqua;
+  max-width: 100%;
+  height: 300px;
+}
+.test-img {
+  width: 100%;
+  height: 300px;
+  padding: 0 0 0 0;
 }
