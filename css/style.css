@@ -605,7 +605,7 @@ body {
 .crew {
   min-height: 100vh;
   width: 100%;
-  border: 1px solid red;
+  background: url(../img/crew/bg_crew.svg) no-repeat top/100%;
 }
 .crew__firstName {
   font-family: 'Manrope';
@@ -617,5 +617,38 @@ body {
 .crew__iconBlock {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.crew__iconBlock-center{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.crew__iconBlock-btm {
+  width: 23%;
+  margin: 60px 0 0 142px;
+  display: flex;
+  justify-content: space-between;
+}
+.crew__icon-card {
+  width: 100%;
+  max-width: 89px;
+}
+.crew__icon-img {
+  border-radius: 50%;
+}
+.cerw__icon-txt {
+  color: rgb(232, 237, 240);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 100%;
   border: 1px solid red;
 }
