@@ -558,7 +558,6 @@ body {
   font-size: 14px;
   line-height: 19px;
   border-radius: 19px;
-  text-align: center;
   background: #000000;
   border: 1px solid red;
 }
@@ -576,6 +575,7 @@ body {
 .portfolio__slider-item-txt {
   font-size: 14px;
   line-height: 19px;
+  padding: 0 15px;
 }
 /*====================Comments============================*/
 .comments {
@@ -636,12 +636,12 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.16));
   border-radius: 27px;
   border: 1px solid black;
-  text-align: center;
 }
 .comments__slider-item-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 10px;
 }
 .comments__slider-item-imgPhoto {
   border-radius: 50%;
@@ -653,6 +653,7 @@ body {
 .comments__slider-item-txt{
   font-size: 12px;
   line-height: 15px;
+  padding: 0 10px;
   margin: 20px auto;
 }
 /*=========================Crew===================================*/
@@ -770,4 +771,10 @@ body {
   margin: 0 0 50px 0;
   width: 350px;
   height: 40px;
+}
+/*===================Adaptiv======================*/
+@media (max-width:1272px) {
+  .portfolio__firstName {
+    margin: 0 0 20px 7.875rem
+  }
 }
