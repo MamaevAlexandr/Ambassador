@@ -307,14 +307,12 @@ body {
   padding: 5px 0 0 0;
   cursor: pointer;
   font-family: "Manrope";
-  font-style: normal;
   font-size: 20px;
   line-height: 27px;
   color: rgba(255, 255, 255, 1);
 }
 .comparsion-table__footer-btmRight {
   font-family: "Manrope";
-  font-style: normal;
   font-size: 15px;
   line-height: 20px;
   color: rgba(21, 156, 232, 1);
@@ -754,6 +752,149 @@ body {
 /*===================Adaptiv======================*/
 @media (max-width:1272px) {
   .portfolio__firstName {
-    margin: 0 0 20px 7.875rem
+    margin: 0 0 20px 7.875rem;
+    font-size: 55px;
+  }
+  .portfolio__slider {
+    height: 17rem;
+  }
+  .footer__right {
+    margin: 0 30px 0 0;
+  }
+}
+@media (max-width:1024px) {
+  .header {
+    padding: 0 50px;
+  }
+  .ambassadors__scool {
+    padding: 0 60px;
+  }
+  .programm__name {
+    font-size: 50px;
+  }
+  .programm__right {
+    margin: 0 0 40px 30px;
+  }
+  .comparsion-table {
+    max-width: 69rem;
+  }
+  .double__btm {
+    padding: 0 40px 0 0;
+  }
+  .portfolio__info-fact {
+    padding: 0 25px 0 100px;
+  }
+  .crew {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .crew__iconBlock-btm{
+    margin: 25px 0 0 100px;
+  }
+}
+@media (max-width:960px) {
+  .ambassadors__scool-logo {
+    margin: 0 0 25px 55px;
+  }
+  .comparsion-table {
+    margin: 0 0 0 10px;
+  }
+  .comparsion-table__head-cell {
+    font-size: 33px;
+    margin: 0 0 0 45px;
+  }
+  .metnors__card-all {
+    flex-wrap: wrap;
+    margin: 20px 0 0 0;
+    padding: 0 50px 0 200px;
+  }
+  .mentors__card {
+    margin: 50px 0 0 0;
+  }
+  .mentors__card-icon {
+    margin: 0  auto;
+  }
+  .crew {
+    background: none;
+  }
+  .crew__iconBlock {
+    flex-wrap: wrap;
+    padding: 0 250px 0 0;
+    margin: 10px 0 0 20%;
+  }
+  .crew__iconBlock-center {
+    flex-wrap: wrap;
+    padding: 0 250px 0 0;
+    margin: 10px 0 0 20%;
+  }
+  .crew__iconBlock-btm {
+    margin: 10px 0 0 20%;
+  }
+}
+@media (max-width:768px) {
+  .header__nav {
+    flex-wrap: wrap;
+    padding: 0 45px 0 0;
+    margin: 0 0 0 50px;
+  }
+  .ambassadors__scool-logo {
+    margin: 0 0 10px 120px;
+  }
+  .ambassadors__scool-btm {
+    margin: 0 0 0 120px;
+  }
+  .programm__left-right-info{
+    flex-direction: column;
+  }
+  .comparsion-table {
+    margin: 65px 0 0 0;
+  }
+  .comparsion-table__head-cell {
+    font-size: 25px;
+    margin: 0 20px 0 0;
+  }
+  .comparsion-table__head-cell-name {
+    font-size: 15px;
+  }
+  .comparsion-table__head-cell-nameA {
+    font-size: 15px;
+  }
+  .comparsion-table__head-cell-nameP {
+    font-size: 15px;
+  }
+  .comparsion-table__body-cell_name-nameProgramm {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .double__btm {
+    padding: 0 40px 0 0;
+  }
+  .comparsion-table__footer-btmLeft{
+    font-size: 15px;
+  }
+  .comparsion-table__footer-btmRight {
+    font-size: 15px;
+  }
+  .comparsion-table__footer-bas {
+    font-size: 20px;
+  }
+  .comparsion-table__footer-bas-sale {
+    font-size: 20px;
+  }
+  .sale {
+    font-size: 20px;
+  }
+  .sale_polosa {
+    width: 50px;
+  }
+  .comparsion-table__footer-bas-saleTwo {
+    font-size: 15px;
+  }
+  .saleTwo {
+    margin: 0 0 0 25px;
+    font-size: 15px;
+  }
+  .sale_polosaTwo {
+    margin: -15px 0 0 20px;
   }
 }
