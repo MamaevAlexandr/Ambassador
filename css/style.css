@@ -5,11 +5,12 @@
 }
 body {
   background: rgb(14, 13, 13)
-}
+} 
 .main__content {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 0 0 100px 20px #CB54F2;
 }
 .header {
   display: flex;
@@ -63,7 +64,7 @@ body {
   width: 100%;
   min-height: 100vh;
   display: flex;
-  background: url(../img/amb__scool/people_bg.svg) right/100% no-repeat;
+  background: url(../img/amb__scool/scool_bg.jpg) right/100% no-repeat;
 }
 .ambassadors__scool-block-left {
   display: flex;
@@ -115,7 +116,7 @@ body {
 .programm {
   /* width: 100%; */
   min-height: 100vh;
-  background: url(../img/programm/bg_programm.svg) repeat repeat;
+  background: url(../img/programm/programm_bg.jpg) repeat repeat;
 }
 .programm__left-right-info {
   display: flex;
@@ -466,7 +467,7 @@ body {
   width: 100%;
   height: 100%;
   min-height: 12.6875rem;
-  background: url(../img/portfolio/dostizheniya__bg.svg) no-repeat 100%;
+  background: url(../img/portfolio/dostijeniya_bg.png) no-repeat 100%;
   margin: 3.375rem 0 0 0;
 }
 
@@ -637,7 +638,7 @@ body {
 .crew {
   min-height: 100vh;
   width: 100%;
-  background: url(../img/crew/bg_crew.svg) no-repeat top/100%;
+  background: url(../img/crew/crew_bg.png) no-repeat top/100%;
 }
 .crew__firstName {
   font-family: 'Manrope';
@@ -896,5 +897,53 @@ body {
   }
   .sale_polosaTwo {
     margin: -15px 0 0 20px;
+  }
+  .portfolio {
+    margin: 40px 0 0 0;
+  }
+  .portfolio__info-fact-txt {
+    display: none;
+  }
+  .portfolio__firstName {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .comments {
+    margin: 6.25rem 0 0 0;
+  }
+  .comments__partners-oneName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .comments__partners-icon {
+    flex-wrap: wrap;
+  }
+  .comments__partners-oneName {
+    margin: 50px 0 0 0;
+  }
+  .crew__firstName {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .crew__iconBlock {
+    padding: 0 350px 0 0;
+  }
+  .crew__iconBlock-center {
+    padding: 0 350px 0 0;
+  }
+}
+@media (max-width:560px) {
+  .header {
+    width: 100%;
+    margin: 0 0 0 0;
+    
+  }
+  .header__nav-item {
+    flex-direction: column;
   }
 }
