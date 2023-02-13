@@ -385,6 +385,9 @@ body {
   width: 500px;
   margin: 0 0 0 3.125rem;
 }
+.media-560-doubleBtm {
+  display: none;
+}
 
 /*=================Mentors==============*/
 .mentors {
@@ -526,12 +529,12 @@ body {
 .portfolio__slider  {
   width: 100%;
   max-width: 80%;
-  height: 200px;
+  /* height: 200px; */
   margin: 0 auto;
 }
 .portfolio__slider-item {
   max-width: 23.4375rem;
-  height: 15.5rem;
+  /* height: 15.5rem; */
   color: white;
   font-size: 14px;
   line-height: 19px;
@@ -762,6 +765,9 @@ body {
   .footer__right {
     margin: 0 30px 0 0;
   }
+  .media-560-doubleBtm {
+    display: none;
+  }
 }
 @media (max-width:1024px) {
   .header {
@@ -792,6 +798,9 @@ body {
   .crew__iconBlock-btm{
     margin: 25px 0 0 100px;
   }
+  .media-560-doubleBtm {
+    display: none;
+  }
 }
 @media (max-width:960px) {
   .ambassadors__scool-logo {
@@ -807,7 +816,7 @@ body {
   .metnors__card-all {
     flex-wrap: wrap;
     margin: 20px 0 0 0;
-    padding: 0 50px 0 200px;
+    padding: 0 50px 0 200px; 
   }
   .mentors__card {
     margin: 50px 0 0 0;
@@ -830,6 +839,9 @@ body {
   }
   .crew__iconBlock-btm {
     margin: 10px 0 0 20%;
+  }
+  .media-560-doubleBtm {
+    display: none;
   }
 }
 @media (max-width:768px) {
@@ -936,14 +948,191 @@ body {
   .crew__iconBlock-center {
     padding: 0 350px 0 0;
   }
+  .media-560-doubleBtm {
+    display: none;
+  }
 }
+
 @media (max-width:560px) {
   .header {
-    width: 100%;
-    margin: 0 0 0 0;
-    
+    display: flex;
+    justify-content: flex-start;
   }
-  .header__nav-item {
+  .header__nav {
+    display: none;
+  }
+  .ambassadors__scool-logo {
+    margin: 40px auto;
+  }
+  .ambassadors__scool-info {
+    margin: 20px auto;
+  }
+  .ambassadors__scool-clic {
+    margin: 0 100px 0 0;
+  }
+  .programm__right-card {
+    display: flex;
     flex-direction: column;
+    margin: 30px 0 0 -85px;
+  }
+  .programm__right-card-private {
+    margin: 15px 0 0 0;
+  }
+  .programm__nameTxt {
+    padding: 0 0 0 25px;
+  }
+  .comparsion-table {
+    display: none;
+  }
+  .metnors__card-all{
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .media-560 {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .programm_media560-firstName {
+    font-family: 'Manrope';
+    font-size: 40px;
+    line-height: 55px;
+    color:rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  .programm_media560-table {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .programm_media560__aqua {
+    width: 150px;
+    height: 250px;
+    background: rgba(50, 171, 180, 1);
+    font-family: 'Manrope';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .programm_media560__aqua-txt {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    margin: -25px 0 0 0;
+    color: rgba(255, 255, 255, 1);
+  }
+  .programm_media560__aqua-number{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin: -25px 0 0 0;
+    color: rgba(255, 255, 255, 1);
+  }
+  .programm_media560__blue {
+    width: 150px;
+    height: 250px;
+    background: rgba(48, 150, 207, 1);
+    font-family: 'Manrope';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .programm_media560__blue-txt {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .programm_media560__blue-number-price {
+    margin: 40px 0 0 0;
+  }
+  .programm_media560__blue-number-blue {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .programm_media560__blue-number-sale {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .programm_media560__blue-number-sale-polosa {
+    border: 1px solid #FF00FF;
+    transform: matrix(0.96, -0.26, 0.26, 0.97, 0, 0);
+    position:absolute;
+    width: 48px;
+    margin: -10px 0 0 5px;
+  }
+  .programm_media560__purpure {
+    width: 150px;
+    height: 250px;
+    background: rgba(97, 84, 242, 1);
+    font-family: 'Manrope';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .media-560-doubleBtm {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+  }
+  .portfolio__firstName {
+    margin: 0 auto;
+  }
+  .portfolio__info-top-number {
+    font-size: 40px;
+    line-height: 36px;
+  }
+  .portfolio__info-top-txt {
+    font-size: 19px;
+    line-height: 50px;
+  }
+  .portfolio__info-fact-logoImg {
+    margin: 0 0 0 -70px;
+  }
+  .portfolio__firstName {
+    margin: -30px 0 30px 0;
+  }
+  .comments {
+    margin: 17.625rem 0 0 0;
+  }
+  .comments__partners-icon {
+    flex-direction: column;
+  }
+  .comments__partners-logotip {
+    margin: 20px 0;
+  }
+  .comments__firstName {
+    margin: 30px 0 0 165px;
+  }
+  .crew__firstName {
+    margin: 0 auto;
+  }
+  .crew__iconBlock {
+    margin: 35px 0 0 240px;
+  }
+  .crew__iconBlock-center {
+    margin: 10px 0 0 240px;
+  }
+  .crew__iconBlock-btm {
+    flex-direction: column;
+    margin: 10px 0 0 240px;
+  }
+  .footer__left-item {
+    margin: 0 0 0 20px;
+  }
+  .footer__right-top {
+    flex-direction: column;
+  }
+  .footer__right-bottom {
+    margin: 20px 0;
   }
 }
