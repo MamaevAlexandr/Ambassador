@@ -96,6 +96,8 @@ body {
   margin: 0 180px 20px 0;
 }
 .ambassadors__scool-btm {
+  display: block;
+  text-align: center;
   width: 218px;
   height: 2.5rem;
   background: rgba(21, 156, 232, 1);
@@ -105,6 +107,7 @@ body {
   font-weight: 600;
   line-height: 1.6875rem;
   color: rgb(232, 237, 240);
+  padding: 5px 0 0 0;
 }
 .ambassadors__scool-btm:hover {
   background: rgba(179, 21, 232, 1);
